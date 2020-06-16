@@ -8,7 +8,7 @@ function Parent(props) {
         <ValueContext.Provider value="80">
             <div>
                 <div>Parent Component: {props.num}</div>
-                <Child></Child>
+                <Child/>
             </div>
         </ValueContext.Provider>
     );
