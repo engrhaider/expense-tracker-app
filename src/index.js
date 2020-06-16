@@ -1,5 +1,5 @@
 import React from 'react';
-import Room from './Room'
+import Parent from './Parent'
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<Room />, document.getElementById('root'));
+ReactDOM.render(<Parent num={23} />, document.getElementById('root'));
